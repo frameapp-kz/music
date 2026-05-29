@@ -1,16 +1,48 @@
-# React + Vite
+# Farme Music KZ
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern music platform web application with a "Liquid Glass" design.
 
-Currently, two official plugins are available:
+## Features
+- Glassmorphism UI (Transparency, Backdrop blur)
+- Animated gradient background
+- Responsive design (Desktop & Mobile)
+- Music playback controls (Play, Pause, Next, Prev)
+- Interactive track selection
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technology Stack
+- React
+- Vite
+- Tailwind CSS
+- Framer Motion
+- Lucide React
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
+- Node.js (v18+)
+- npm
 
-## Expanding the ESLint configuration
+### Installation
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Development
+1. Start the development server:
+   ```bash
+   npm run dev
+   ```
+2. Open your browser at `http://localhost:5173`. **(Recommended way to view the site during development)**
+
+### Production
+1. Build the project:
+   ```bash
+   npm run build
+   ```
+2. Preview the build:
+   ```bash
+   npm run preview
+   ```
+
+**Note:** Opening `index.html` directly from the file system may not work due to browser security restrictions on ES modules. It is recommended to use `npm run dev` or `npm run preview` to see the application.
